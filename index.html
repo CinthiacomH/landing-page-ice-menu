@@ -27,12 +27,12 @@
                     <a href="#menu">Cardápio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#testimonials">Avaliações</a>
+                    <a href="#about">Sobre nós</a>
                 </li>
             </ul>
 
             <button class="btn-default">
-                Peça aqui
+                <a href="https://api.whatsapp.com/send/?phone=5511972083033&text&app_absent=0" target="_blank">Peça aqui</a>
             </button>
 
             <button id="mobile_btn">
@@ -52,7 +52,7 @@
                     <a href="#menu">Cardápio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#testimonials">Avaliações</a>
+                    <a href="#about">Sobre nós</a>
                 </li>
             </ul>
 
@@ -113,102 +113,42 @@
             <h2 class="section-title">Kits</h2>
             <h3 class="section-subtitle">Praticidade no seu dia a dia</h3>
 
-            <div id="kits">
-                <div class="kit">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
-                    <img src="src/images/01_kit.png" class="kit-image" alt="">
-
-                    <h3 class="dish-title">
-                        Kit 05 refeições
-                    </h3>
-
-                    <span class="dish-description">
-                        Uma refeiçãos por dia (Almoço e jantar).
-                    </span>
-
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-
-                    <div class="dish-price">
-                        <h4>A partir de R$65,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
+            <div class="container">
+            <div class="kit">
+                <img src="src/images/01_kit.png" class="kit-image" alt="">
+                <h3 class="dish-title">Kit 05 refeições</h3>
+                <span class="dish-description">Uma refeiçãos por dia (Almoço e jantar).</span>
+                <div class="dish-price">
+                    <h4>A partir de R$65,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
                 </div>
+            </div>
 
-                <div class="kit">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
-                    <img src="src/images/02_kit.png" class="kit-image" alt="">
-
-                    <h3 class="dish-title">
-                        Kit 10 refeições
-                    </h3>
-
-                    <span class="dish-description">
-                        Duas refeições por dia (Almoço e jantar).
-                    </span>
-
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-
-                    <div class="dish-price">
-                        <h4>A partir de R$130,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
+            <div class="kit">
+                <img src="src/images/02_kit.png" class="kit-image" alt="">
+                <h3 class="dish-title">Kit 10 refeições</h3>
+                <span class="dish-description">Duas refeições por dia (Almoço e jantar).</span>
+                <div class="dish-price">
+                    <h4>A partir de R$130,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
                 </div>
+            </div>
 
-                <div class="kit">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
-                    <img src="src/images/03_kit.png" class="kit-image" alt="">
-
-                    <h3 class="dish-title">
-                        Kit 14 refeições
-                    </h3>
-
-                    <span class="dish-description">
-                        Duas refeições por dia (Almoço e jantar).
-                    </span>
-
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-
-                    <div class="dish-price">
-                        <h4>A partir de R$195,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
+            <div class="kit">
+                <img src="src/images/03_kit.png" class="kit-image" alt="">
+                <h3 class="dish-title">Kit 14 refeições</h3>
+                <span class="dish-description">Duas refeições por dia (Almoço e jantar).</span>
+                <div class="dish-price">
+                    <h4>A partir de R$195,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
                 </div>
+            </div>
             </div>
         </section>
 
@@ -216,8 +156,9 @@
             <h2 class="section-title">Cardápio</h2>
             <h3 class="section-subtitle">Nossos pratos especiais</h3>
 
-            <div id="kits">
-                <div class="kit">
+            <div class="cardapio">
+            <div id="dishes">
+                <div class="dish">
                     <div class="dish-heart">
                         <i class="fa-solid fa-heart"></i>
                     </div>
@@ -249,7 +190,7 @@
                     </div>
                 </div>
 
-                <div class="kit">
+                <div class="dish">
                     <div class="dish-heart">
                         <i class="fa-solid fa-heart"></i>
                     </div>
@@ -281,7 +222,7 @@
                     </div>
                 </div>
 
-                <div class="kit">
+                <div class="dish">
                     <div class="dish-heart">
                         <i class="fa-solid fa-heart"></i>
                     </div>
@@ -313,7 +254,7 @@
                     </div>
                 </div>
 
-                <div class="kit">
+                <div class="dish">
                     <div class="dish-heart">
                         <i class="fa-solid fa-heart"></i>
                     </div>
@@ -345,7 +286,7 @@
                     </div>
                 </div>
 
-                <div class="kit">
+                <div class="dish">
                     <div class="dish-heart">
                         <i class="fa-solid fa-heart"></i>
                     </div>
@@ -377,7 +318,7 @@
                     </div>
                 </div>
 
-                <div class="kit">
+                <div class="dish">
                     <div class="dish-heart">
                         <i class="fa-solid fa-heart"></i>
                     </div>
@@ -409,66 +350,32 @@
                     </div>
                 </div>
             </div>
+            </div>
         </section>
 
-        <section id="testimonials">
+        <section id="about">
             <img src="src/images/congelador.jpeg" id="testimonial_chef" alt="">
 
-            <div id="testimonials_content">
+            <div id="about_content">
                 <h2 class="section-title">
-                    Depoimentos
+                    Sobre nós
                 </h2>
                 <h3 class="section-subtitle">
-                    O que os clientes falam sobre nós
+                    Olá! Nós somos a Ice Menu!
                 </h3>
 
-                <div id="feedbacks">
                     <div class="feedback">
-                        <img src="src/images/avatar1.jpg" class="feedback-avatar" alt="">
-
                         <div class="feedback-content">
                             <p>
-                                Fulana de Tal
-                                <span>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </span>
-                            </p>
-                            <p>
-                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
-                            </p>
-                        </div>
-                    </div>
+                                Na correria do dia a dia, sabemos o quão precioso é o seu tempo. Estamos aqui para transformar a sua rotina alimentar, proporcionando refeições saborosas e prontas em minutos. Nosso compromisso é unir o melhor em sabor com a conveniência que você merece.<br><br>
 
-                    <div class="feedback">
-                        <img src="src/images/avatar2.jpg" class="feedback-avatar" alt="">
+                                Na Ice Menu, acreditamos que comer bem não precisa ser complicado. Deixe-nos cuidar das suas refeições enquanto você se concentra em outros momentos importantes do dia. Experimente nossas marmitas congeladas e descubra como é fácil saborear uma alimentação rica em nutrientes sem se preocupar com o tempo para preparo.<br><br>
 
-                        <div class="feedback-content">
-                            <p>
-                                Fulana de Tal
-                                <span>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </span>
-                            </p>
-                            <p>
-                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
-                            </p>
+                                Ice Menu, otimizando seu tempo e entregando sabor.
+                            </p>                            
                         </div>
                     </div>
                 </div>
-
-                <button class="btn-default">
-                    Ver mais avaliações
-                </button>
             </div>
         </section>
     </main>

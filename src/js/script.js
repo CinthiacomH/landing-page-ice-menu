@@ -52,7 +52,7 @@ $(document).ready(function() {
         distance: '20%'
     })
 
-    ScrollReveal().reveal('.feedback', {
+    ScrollReveal().reveal('.about', {
         origin: 'right',
         duration: 1000,
         distance: '20%'

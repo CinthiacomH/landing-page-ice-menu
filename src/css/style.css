@@ -258,9 +258,36 @@ header {
     }
 }
 
-.kit-image{
-    align-items: center;
+.container {
+    display: flex;
+    flex-wrap: wrap;
     max-width: 100%;
+    padding: 10px;
+    justify-content: center;     
+}
+
+.container .kit {
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    flex: 0 1 250px;
+    margin: 10px;    
+}
+
+.cardapio {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 10px;
+    justify-content: center;     
+}
+
+.cardapio .dish {
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    flex: 0 1 250px;
+    margin: 10px;    
 }
 
 .dish-heart {
@@ -314,7 +341,7 @@ header {
     }
 } 
 
-#testimonials {
+#about {
     min-height: calc(100vh - 91px);
     display: flex;
     align-items: center;
@@ -327,11 +354,11 @@ header {
     height: auto;
 }
 
-#testimonials .section-subtitle {
+#about .section-subtitle {
     font-size: 3rem;
 }
 
-#testimonials_content {
+#about_content {
     width: 50%;
 }
 
@@ -403,7 +430,7 @@ header {
     .feedback {
         flex-direction: column;
     }
-}
+} 
 
 footer {
     background-color: var(--color-primary-2);
