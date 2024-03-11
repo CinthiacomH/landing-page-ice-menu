@@ -15,7 +15,8 @@ header {
 }
 
 .logo{
-    max-width: 10%;
+    width: 200px;
+    height: 100px;
 }
 
 #nav_list {
