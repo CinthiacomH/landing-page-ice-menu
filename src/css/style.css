@@ -285,12 +285,20 @@ header {
     gap: 20px;
 }
 
-.container .dish {
-    display: flex;
-    border-radius: 10px;
+.dish {
+    display: grid;
+    grid-template-columns: repeat(auto, auto);
     align-items: center;
     flex: 0 1 250px;
     margin: 10px;    
+}
+
+.dish-photo{
+    border-radius: 12%;
+}
+
+.dish-title{
+    text-align: center;
 }
 
 .dish-description {
@@ -330,6 +338,10 @@ header {
 #testimonial_chef {
     width: 500px;
     height: auto;
+}
+
+.about-photo{
+    border-radius: 12px;
 }
 
 #about .section-subtitle {
