@@ -46,13 +46,13 @@ $(document).ready(function() {
         distance: '20%'
     });
 
-    ScrollReveal().reveal('#testimonial_chef', {
+    ScrollReveal().reveal('#about-photo', {
         origin: 'left',
         duration: 1000,
         distance: '20%'
     })
 
-    ScrollReveal().reveal('.about', {
+    ScrollReveal().reveal('.section-text', {
         origin: 'right',
         duration: 1000,
         distance: '20%'

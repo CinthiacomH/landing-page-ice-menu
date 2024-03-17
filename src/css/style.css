@@ -74,7 +74,7 @@ header {
     #mobile_nav_list .nav-item {
         list-style: none;
         text-align: center;
-    } 
+    }
 }
 
 #menu {
@@ -208,7 +208,7 @@ header {
 
 .section-subtitle {
     font-size: 2.1875rem;
-} 
+}
 
 #banner {
     display: flex;
@@ -264,7 +264,7 @@ header {
     flex-wrap: wrap;
     max-width: 100%;
     padding: 10px;
-    justify-content: center;     
+    justify-content: center;
 }
 
 .container .kit {
@@ -272,7 +272,7 @@ header {
     border-radius: 10px;
     align-items: center;
     flex: 0 1 250px;
-    margin: 10px;    
+    margin: 10px;
 }
 
 .kit-description {
@@ -291,7 +291,7 @@ header {
     grid-template-columns: repeat(auto, auto);
     align-items: center;
     flex: 0 1 250px;
-    margin: 10px;    
+    margin: 10px;
 }
 
 .dish-photo{
@@ -307,17 +307,6 @@ header {
     text-align: center;
 }
 
-/* @media screen and (max-width: 1170px) {
-    #dishes {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .dish {
-        width: calc(50% - 12px);
-    }
-} */
-
 @media screen and (max-width: 600px) {
     .dish {
         width: 100%;
@@ -326,9 +315,9 @@ header {
     #menu .section-subtitle {
         text-align: center;
     }
-} 
+}
 
-#about {
+#about_us {
     min-height: calc(100vh - 91px);
     display: flex;
     align-items: center;
@@ -336,16 +325,13 @@ header {
     gap: 48px;
 }
 
-#testimonial_chef {
+#about-photo {
     width: 500px;
     height: auto;
-}
-
-.about-photo{
     border-radius: 12px;
 }
 
-#about .section-subtitle {
+#about_us .section-subtitle {
     font-size: 3rem;
 }
 
@@ -353,7 +339,7 @@ header {
     width: 50%;
 }
 
-#feedbacks {
+#about_text {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -361,7 +347,7 @@ header {
     margin-top: 30px;
 }
 
-.feedback {
+.section-content {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -371,30 +357,30 @@ header {
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
 }
 
-.feedback-content p {
+.section-text  p {
     display: flex;
     justify-content: space-between;
 }
 
-.feedback-content p span {
+.section-text p span {
     color: var(--color-primary-6);
 }
 
 @media screen and (max-width: 1170px) {
-    #testimonials {
+    #about_us {
         flex-direction: column;
     }
 
-    #testimonials .section-subtitle {
+    #about_us .section-subtitle {
         text-align: center;
         font-size: 2.5rem;
     }
 
-    #testimonial_chef {
+    #about-photo {
         display: none;
     }
 
-    #testimonials_content {
+    #about_content {
         width: 70%;
         display: flex;
         flex-direction: column;
@@ -403,18 +389,14 @@ header {
 }
 
 @media screen and (max-width: 600px) {
-    #testimonials .section-subtitle {
+    #about_us .section-subtitle {
         font-size: 2rem;
     }
 
-    #testimonials_content {
+    #about_content {
         width: 100%;
     }
-
-    .feedback {
-        flex-direction: column;
-    }
-} 
+}
 
 footer {
     background-color: var(--color-primary-2);
@@ -428,7 +410,7 @@ footer {
 }
 
 #copyright {
-    color: var(--color-neutral-1);;
+    color: var(--color-neutral-1);
     font-weight: 500;
 }
 
